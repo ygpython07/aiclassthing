@@ -7,7 +7,7 @@ from werkzeug.utils import secure_filename
 import numpy as np
 from keras.utils import load_img, img_to_array
 from keras.saving import load_model
-model_s = load_model("app/static/model/mnist_20240928.keras")
+model_s = load_model("app/static/model/mnist_202311.h5")
 path = ""; secure_files = []
 
 def allowed_file(filename):
